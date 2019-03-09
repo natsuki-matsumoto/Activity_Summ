@@ -13,12 +13,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.dycas.activity_summ.R;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import Util.LogUtil;
 import Util.ReflectionUtil;
 import Util.PackageInfoUtil;
 import Util._CodeUtil;

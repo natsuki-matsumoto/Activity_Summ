@@ -12,6 +12,7 @@
         android:id="@+id/activity_title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
         android:textSize="12sp" />
 
     <android.support.v7.widget.AppCompatTextView
@@ -19,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
         android:textSize="12sp" />
 
     <android.support.v7.widget.AppCompatTextView
@@ -26,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
         android:textSize="12sp" />
 
 </LinearLayout>

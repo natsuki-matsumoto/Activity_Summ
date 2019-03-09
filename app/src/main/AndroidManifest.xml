@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dycas.baseproject">
+    package="com.example.dycas.activity_summ">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".BaseProjectActivity"
-            android:label="[Base*, Tips*]Activity classをList化">
+        <activity android:name="com.example.dycas.baseproject.BaseProjectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Base01_Activity.Base01_Activity" />
+        <activity android:name=".Tips01_DataTrans.Tips01_DataTrans" />
+        <activity android:name=".Tips01_DataTrans.SubActivity"></activity>
     </application>
 
 </manifest>
